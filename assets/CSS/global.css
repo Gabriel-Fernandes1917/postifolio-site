@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    --bg-page:#E5E5E5;
+    background-color: var(--bg-page);
+    background-image: url(../IMG/Rectangle\ 67.png);
+    background-repeat: no-repeat,no-repeat;
+    background-size: 50%, 50%;
+    background-position: right top, left  top;
+}
+
+/*.retangle-67 > img{
+   float: right;
+   height: 100%;
+   
+}*/
+
