@@ -14,26 +14,36 @@ body{
     
 }
 
-header > nav > ul{
+.header{
+    
+    width: 40%;
+    float: top;
+    margin: 3% auto auto 60%;
+}
+
+.header > nav > ul{
     color: white;
     list-style: none;
     justify-content: space-between;
     display: flex;
-    width: 30%;
-    margin: 3% 3% auto auto;
+    margin: auto 3% auto auto;
     font-weight: bold;
     font-size: 20px;
     padding: 7px;
     cursor: pointer;
 }
 
+.header > nav > ul> li{
+    padding: 7px;
+}
 
-header > nav > ul > li:hover{
+
+.header > nav > ul > li:hover{
     transition: 1s all;
     background-color: white;
     color: black;
     border-radius: 7px;
-    padding: 7px;
+    
 }
 
 .apresetetion-me{
