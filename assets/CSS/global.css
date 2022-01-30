@@ -11,10 +11,11 @@ body{
     background-repeat: no-repeat,no-repeat;
     background-size: 50%, 50%;
     background-position: right top, left  top; */
-
+    font-family: 'Roboto', sans-serif;
     background-image: url(../IMG/reto.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    
 }
 
 .header{
@@ -22,6 +23,7 @@ body{
     width: 40%;
     float: top;
     margin: 3% auto auto 60%;
+    
 }
 
 .header > nav > ul{
@@ -38,6 +40,7 @@ body{
 
 .header > nav > ul> li{
     padding: 7px;
+    font-weight: bold;
 }
 
 
@@ -46,12 +49,16 @@ body{
     background-color: white;
     color: black;
     border-radius: 7px;
-    
+    font-weight: bold;
 }
 
 .apresetetion-me{
-    margin: 10% auto auto 20%;
-    
+    /* margin: 10% auto auto 20%; */
+    /* background-color: red; */
+    width: 20%;
+    margin: 10%;
+    position: absolute;
+    font-size: 30px;
 }
 
 .apresetetion-me>h3{
@@ -60,15 +67,36 @@ body{
 }
 
 .show-me{
-    float: right; 
     
+    margin-right: 10%;
+    position: fixed;
+    bottom: 0;
+    right: 0;
 }
 
 .show-me> img{
-    height: 400px;
-    position: block;
-    margin: auto auto auto auto;
+    height: 570px;
+    
 }
+
+.social-media{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: red; */
+}
+
+.social-media > button>img{
+    width: 50px;
+    height: 50px;
+    
+}
+
+/* .social-media > button:last-child{
+    float: center;
+} */
+
 
 /* .retangle-67{
     position: absolute;
