@@ -4,14 +4,17 @@
 }
 
 body{
-    --bg-page:#E5E5E5;
+    /* --bg-page:#E5E5E5;
     background-color: var(--bg-page);
     
     background-image: url(../IMG/Rectangle\ 67.png);
     background-repeat: no-repeat,no-repeat;
     background-size: 50%, 50%;
-    background-position: right top, left  top;
-    
+    background-position: right top, left  top; */
+
+    background-image: url(../IMG/reto.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .header{
@@ -54,6 +57,17 @@ body{
 .apresetetion-me>h3{
     color: gray;
     
+}
+
+.show-me{
+    float: right; 
+    
+}
+
+.show-me> img{
+    height: 400px;
+    position: block;
+    margin: auto auto auto auto;
 }
 
 /* .retangle-67{
