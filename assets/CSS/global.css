@@ -68,14 +68,13 @@ body{
 
 .show-me{
     
-    margin-right: 10%;
     position: fixed;
     bottom: 0;
     right: 0;
 }
 
 .show-me> img{
-    height: 570px;
+    height: 670px;
     
 }
 
