@@ -5,8 +5,20 @@
 
 body{
     background-color: #E5E5E5;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+a{
+    text-decoration: none;
+    
+}
 
 
+p{
+    margin: 7% auto 7% auto;
+    line-height: 1.5;
+    text-align:center;
 }
 
 .header{  
@@ -32,11 +44,16 @@ body{
 
 .header > nav > ul> li{
     padding: 7px;
+}
+
+.header > nav > ul> li > a{
+    padding: 7px;
     font-weight: bold;
+    color: white;
 }
 
 
-.header > nav > ul > li:hover{
+.header > nav > ul > li > a:hover{
     transition: 1s all;
     background-color: white;
     color: black;
@@ -50,9 +67,57 @@ main{
     /* background-color: blue; */
 }
 
-.retangle-info >h1{
+.retangle-info{
+    width: fit-content; /*make the border or div has auto ajust the size*/
+    padding: 30px;
+    /* border: size style color; */
+    border: 5px solid black;
+    margin: auto;
+}
+
+.retangle-info>h1{
+    font-weight: bold;
+}
+
+.separatorBlack> img{
+    margin: 10% auto 7% auto;
+    display: flex;
+}
+
+/* My zones */
+
+.minhas-areas{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.minhas-areas{
+    
+}
+
+.dev{
    
-    padding: 5px;
-    border-color: blue;
-    border-style: solid;
+}
+
+.icon-name{
+    display: flex;
+}
+
+.icon-name > img{
+    position: absolute;
+}
+.icon-name > h3{
+    position: relative;
+    margin: 20px auto auto 35px;
+    bottom: 0;
+}
+
+.info{
+    position: absolute;
+    width: 30%;
+}
+
+.info > p{
+    margin-left: 20px;
 }
