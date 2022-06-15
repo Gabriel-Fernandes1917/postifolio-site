@@ -38,7 +38,7 @@ a {
 }
 
 .home .bodyHome div div {
-  margin: 30vh auto;
+  margin: 10.56rem auto;
 }
 
 .home .bodyHome nav {
@@ -46,6 +46,8 @@ a {
   color: white;
   right: 20rem;
   top: 1rem;
+  width: 40%;
+  right: 0;
 }
 
 .home .bodyHome nav ul {
@@ -68,16 +70,18 @@ a {
   background-repeat: no-repeat;
   background-size: 100%;
   border: solid;
-  border-radius: 40.31rem;
+  border-radius: 50%;
   border-color: white;
-  height: 18.56rem;
-  margin: 6.75rem auto 14.68rem auto;
+  height: 34%;
+  width: 20%;
+  position: absolute;
+  margin: 10% 10%;
 }
 
 .home .footerHome {
   background: linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
   bottom: 0;
-  height: 9rem;
+  height: 20vh;
   width: 100%;
   color: white;
 }
