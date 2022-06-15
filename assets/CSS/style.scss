@@ -5,6 +5,10 @@ $corDeFundo: #D7D7D7;
     box-sizing: border-box;
 }
 
+li{
+    list-style: none;
+}
+
 body{
     font-family: 'Roboto', sans-serif;
     background-color: $corDeFundo;
@@ -27,7 +31,7 @@ a{
     .bodyHome{
         display: flex;
         div{
-            height: 100vh;
+            height: 80vh;
             width: 50%;
             div{
                 margin: 30vh auto;
@@ -35,20 +39,48 @@ a{
             }
 
         }
-        div{
-
-            nav{
-                color: white;
+  
+        nav{
+            position: absolute;
+            color: white;
+            right: 20rem;
+            top: 1rem;
+            ul{
+                justify-content: space-between;
+                display: flex;
+                justify-content: space-between;
+                
+                li{
+                    padding: 0.5rem;
+                    cursor: pointer;
+                }
             }
         }
+
+        .showMe{
+            
+            background-image: url('../IMG/protfiINM.jpg');
+            background-repeat: no-repeat;
+            background-size: 100%;
+
+            border: solid;
+            border-radius: 40.31rem;
+            border-color: white;
+
+            height: 18.56rem;
+            
+            margin: 6.75rem auto 14.68rem auto;
+        }
+        
     }
 
     .footerHome{
-        height: 15vh;
         background: linear-gradient(90.18deg, #1D1D1D 31.74%, #1D1D1D 90.49%, #1D1D1D 90.49%);
-        position: absolute;
+        
         bottom: 0;
+        height: 9rem;
         width: 100%;
+
         color: white;
     }
 }
@@ -79,33 +111,17 @@ a{
     
 }
 
-.header > nav > ul{
-    color: white;
-    list-style: none;
-    justify-content: space-between;
-    display: flex;
-    margin: auto 3% auto auto;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 7px;
-    cursor: pointer;
-
-    li{
-        padding: 7px;
-        font-weight: bold;
-    }
-}
-
 @mixin hover($corDeFundo, $corDaLetra) { // :hover elements
     background-color: $corDeFundo;
     color: $corDaLetra;
     transition: 1s all;
 }
 
-.header > nav > ul > li:hover{
+ nav > ul > li:hover{
     @include hover(white, black);
     border-radius: 7px;
     font-weight: bold;
+
 }
 
 .apresetetion-me{
