@@ -41,13 +41,21 @@ a {
   margin: 10.56rem auto;
 }
 
+.home .bodyHome div div h2 {
+  margin-bottom: 1rem;
+}
+
+.home .bodyHome div div h3 {
+  color: gray;
+}
+
 .home .bodyHome nav {
   position: absolute;
   color: white;
   right: 20rem;
   top: 1rem;
   width: 40%;
-  right: 0;
+  right: auto;
 }
 
 .home .bodyHome nav ul {
@@ -68,14 +76,12 @@ a {
 .home .bodyHome .showMe {
   background-image: url("../IMG/protfiINM.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   border: solid;
-  border-radius: 50%;
+  border-radius: 2rem;
   border-color: white;
-  height: 34%;
-  width: 20%;
-  position: absolute;
-  margin: 10% 10%;
+  height: 25rem;
+  overflow: hidden;
 }
 
 .home .footerHome {
@@ -84,6 +90,22 @@ a {
   height: 20vh;
   width: 100%;
   color: white;
+}
+
+.home .footerHome div {
+  padding: 2rem;
+}
+
+.home .footerHome div p, .home .footerHome div h3 {
+  padding-bottom: 2rem;
+}
+
+.home .footerHome div button {
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
 }
 
 .aboutMe {
@@ -97,10 +119,13 @@ a {
   text-align: center;
 }
 
-.aboutMe .apresentacao h2 {
+.aboutMe .apresentacao .sobre {
   border-style: solid;
-  width: 30vh;
+  height: 6.68rem;
+  width: 25.25rem;
   margin: auto;
+  margin-bottom: 3rem;
+  text-align: center;
 }
 
 .header {

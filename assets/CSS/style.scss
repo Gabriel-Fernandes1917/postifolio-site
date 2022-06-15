@@ -36,6 +36,14 @@ a{
             div{
                 margin: 10.56rem auto;
                 
+                
+                h2{
+                    margin-bottom: 1rem;
+                }
+                h3{
+                    color: gray;
+                }
+                
             }
 
         }
@@ -46,7 +54,8 @@ a{
             right: 20rem;
             top: 1rem;
             width: 40%;
-            right: 0;
+            right: auto;
+
             ul{
                 justify-content: space-between;
                 display: flex;
@@ -63,17 +72,14 @@ a{
             
             background-image: url('../IMG/protfiINM.jpg');
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
 
             border: solid;
-            border-radius: 50%;
+            border-radius: 2rem;
             border-color: white;
 
-            height: 34%;
-            width: 20%;
-
-            position: absolute;
-            margin: 10% 10%;
+            height: 25rem;
+            overflow: hidden;
             
         }
         
@@ -87,6 +93,25 @@ a{
         width: 100%;
 
         color: white;
+        
+        div{
+            padding: 2rem;
+            
+            p ,h3{
+                padding-bottom: 2rem;
+            }
+
+            button{
+                border: none;
+
+                background-color: transparent;
+
+                color: white;
+
+                font-size: 18px;
+                font-weight: bold;
+            }
+        }
     }
 }
 
@@ -99,11 +124,20 @@ a{
         margin-top: 10vh;
         text-align: center;
 
-
-        h2{
+        .sobre{
             border-style: solid;
-            width: 30vh;
+            
+
+            height: 6.68rem;
+            width: 25.25rem;
             margin: auto;
+            margin-bottom: 3rem;
+            text-align: center;
+
+        }
+
+        .text{
+
         }
     }
 }
